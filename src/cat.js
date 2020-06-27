@@ -5,4 +5,7 @@ export default class Cat {
   get name() {
     return this._name;
   }
+  set name(val) {
+    this._name = val;
+  }
 }
